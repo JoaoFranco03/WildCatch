@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "1083px-Penguin_in_Antarctica_jumping_out_of_the_water.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
