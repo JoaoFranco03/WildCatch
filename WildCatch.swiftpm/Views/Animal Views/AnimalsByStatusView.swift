@@ -21,13 +21,13 @@ struct AnimalsByStatusView: View {
     }
     
     var animalsByStatus: [Animal] {
-        return ModelData.shared.animals.filter { $0.endangeredStatus == receivedEndangeredStatus
+        return ModelData.shared.sortedAnimalsByName.filter { $0.endangeredStatus == receivedEndangeredStatus
         }
     }
 }
 
 struct AnimalsByStatusView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalsByStatusView(receivedEndangeredStatus: ModelData.shared.animals[0].endangeredStatus)
+        AnimalsByStatusView(receivedEndangeredStatus: ModelData.shared.sortedAnimalsByName[0].endangeredStatus)
     }
 }

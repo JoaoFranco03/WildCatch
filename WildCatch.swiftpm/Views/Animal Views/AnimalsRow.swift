@@ -35,12 +35,10 @@ struct AnimalsRow: View {
 }
 
 struct AnimalsRow_Previews: PreviewProvider {
-    static var animals = ModelData.shared.animals
-
     static var previews: some View {
         AnimalsRow(
             categoryName: "Animals",
-            items: Array(animals.prefix(4))
+            items: Array(ModelData.shared.sortedAnimalsByName.prefix(4))
         )
     }
 }

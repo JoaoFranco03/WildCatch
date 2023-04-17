@@ -30,7 +30,7 @@ struct AnimalItem: View {
 
 struct AnimalItem_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalItem(animal: ModelData.shared.animals[0])
+        AnimalItem(animal: ModelData.shared.sortedAnimalsByName[0])
     }
 }
 

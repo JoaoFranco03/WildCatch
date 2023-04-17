@@ -49,10 +49,10 @@
 **Otters:** Photo by Anchor Lee on [Unsplash]( https://unsplash.com/photos/pk7YVlj6o2o?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
 **Monarch Butterfly:** Photo by Erin Minuskin on [Unsplash]( https://unsplash.com/photos/LGaneK6yG9M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
 **Horse:** Photo by Silje Midtgård on [Unsplash]( https://unsplash.com/photos/0F9oVQ3x2ak?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
-
-## Files that are Public Domain: <br />
-**Saber-Toothed Tiger:** Charles R. Knight. Painting of Smilodon populator from the American Museum of Natural History. 1903. Retrieved from [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Smilodon_Knight.jpg#/media/File:Smilodon_Knight.jpg) <br />
-**Great Auk:** John James Audubon, Bird Artist of America. Great Auk. 1800s. Retrieved from [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:PinguinusImpennus.jpg#/media/File:PinguinusImpennus.jpg) <br />
+**Pig:** Photo by Nicolas Castez on [Unsplash]( https://unsplash.com/photos/5APBLfC2hUs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
+**Cow:** Photo by Andy Kelly on [Unsplash]( https://unsplash.com/photos/5APBLfC2hUs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
+**Goat:** Photo by Nandhu Kumar on [Unsplash]( https://unsplash.com/photos/jAMcUbsTvWE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
+**Sheep:** Photo by John Fowler on [Unsplash]( https://unsplash.com/photos/jmYJBQXvLNI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br />
 
 ## Files with Attribution-ShareAlike 4.0 International (CC BY-SA 4.0): <br />
 **Iberian Lynx:** Diego Delso. Iberian Lynx (Lynx pardinus), Almuradiel, Ciudad Real, Spain. 19 December 2021, 18:01:45. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Lince_ibérico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_España,_2021-12-19,_DD_07.jpg) <br />
@@ -70,8 +70,6 @@
 **Amazon River Dolphin:** Oceancetaceen. Amazonas-Flussdelphin: Orinoko im Zoo Duisburg. 9 July 2008. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Amazonas-Flussdelfin_Orinoko3.jpg#/media/File:Amazonas-Flussdelfin_Orinoko3.jpg) <br />
 **Emperor Penguin:** Christopher Michel. An Emperor Penguin (Aptenodytes forsteri) in Antarctica jumping out of the water. 3 December 2013. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg#/media/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg) <br />
 **Spix's Macaw:** Rüdiger Stehn. A Spix's Macaw in Vogelpark Walsrode, Walsrode, Germany in about 1980. 1 January 1980. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Cyanopsitta_spixii_-Vogelpark_Walsrode,_Walsrode,_Germany-1980.jpg#/media/File:Cyanopsitta_spixii_-Vogelpark_Walsrode,_Walsrode,_Germany-1980.jpg) <br />
-**Woolly Mammoth:** Thomas Quine. Royal Victoria Museum, Victoria, British Columbia, Canada, 2018. 5 May 2018. Retrieved from [Wikipedia Commons](  https://commons.wikimedia.org/wiki/File:Woolly_mammoth_model_Royal_BC_Museum_in_Victoria.jpg#/media/File:Woolly_mammoth_model_Royal_BC_Museum_in_Victoria.jpg) <br />
-**Dodo Bird:** BazzaDaRambler. Skeleton cast and model of dodo at the Oxford University Museum of Natural History, made in 1998 based on modern research. 9 January 2009. Retrieved from [Wikipedia Commons](  https://commons.wikimedia.org/wiki/File:Oxford_Dodo_display.jpg#/media/File:Oxford_Dodo_display.jpg) <br />
 
 ##About the Licenses:
 **Public Domain:** Images with this license are free for use without any attribution or permission required. They are released under the Creative Commons CC0 license, which means that the images can be used for commercial or personal purposes, modified, distributed, and copied without any restrictions.

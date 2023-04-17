@@ -14,7 +14,7 @@ struct Classifier {
     
     mutating func detect(ciImage: CIImage) {
         
-        guard let model = try? VNCoreMLModel(for: AnimalIdentifier(configuration: MLModelConfiguration()).model)
+        guard let model = try? VNCoreMLModel(for: AnimalClassifier(configuration: MLModelConfiguration()).model)
         else {
             return
         }
@@ -30,10 +30,21 @@ struct Classifier {
         }
         
         if let firstResult = results.first {
-            self.results = firstResult.identifier
+            if (firstResult.identifier != "Human"){
+                if (firstResult.confidence > 0.8){
+                    print("---------------------------")
+                    print(firstResult.identifier)
+                    print(firstResult.confidence)
+                    self.results = firstResult.identifier
+                } else {
+                    self.results = nil
+                }
+            } else {
+                self.results = nil
+            }
+        } else {
+            self.results = nil
         }
-        
     }
-    
 }
 

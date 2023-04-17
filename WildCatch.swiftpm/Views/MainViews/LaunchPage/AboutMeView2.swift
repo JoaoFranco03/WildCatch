@@ -9,45 +9,34 @@ import SwiftUI
 
 struct AboutMeView2: View {
     @Binding var showWelcomeScreen: Bool
+    
     var body: some View {
-        NavigationView {
-            VStack {
-                Spacer()
-                Text("In This Project I Used:")
-                    .font(.callout)
-
-                VStack(spacing: 24) {
-                    FeatureHighlight(image: "swift", title: "SwiftUI", subtitle: "For the UI and Overall Views", color: .orange)
-
-                    FeatureHighlight(image: "eye", title: "Vision", subtitle: "For Recognizing the Animals", color: .yellow)
-
-                    FeatureHighlight(image: "brain.head.profile", title: "CoreML", subtitle: "For the Underlying Animal Identification", color: .red)
-                }
-                .padding(.leading)
-
-                Spacer()
-                Spacer()
-                
-                Button(action: { self.showWelcomeScreen = false }) {
-                    HStack {
-                        Spacer()
-                        Text("Continue")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                        Spacer()
-                    }
-                }
-                .frame(height: 50)
-                .background(Color.blue)
-                .cornerRadius(15)
+        VStack() {
+            Spacer()
+            Text("Why have I built this app?")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+                .foregroundColor(.blue)
+                .padding(.horizontal, 48)
+            
+            Text("Growing up in a coastal village in Portugal, I've always been fascinated by animals. That's why I created this app that uses the camera or a photo from the photos library, to help people identify animals and learn interesting and fun facts such as their habitats, diet, and behavior. By making it easier for people to learn about the animals around them, I hope to inspire appreciation and awareness about the importance of preserving our planet's diverse ecosystems.")
+                .multilineTextAlignment(.center)
+                .padding()
+            
+            Spacer()
+            
+            NavigationLink(destination: AboutMeView3(showWelcomeScreen: $showWelcomeScreen)) {
+                Text("Continue")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .background(Color.blue)
+                    .cornerRadius(15)
+                    .padding(.horizontal, 48)
             }
-            .padding()
         }
-    }
-}
-
-struct AboutMeView2_Previews: PreviewProvider {
-    static var previews: some View {
-        AboutMeView2(showWelcomeScreen: .constant(true))
+        .padding()
     }
 }

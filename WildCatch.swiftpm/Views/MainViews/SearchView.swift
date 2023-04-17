@@ -24,9 +24,9 @@ struct SearchView: View {
     
     var searchedResults: [Animal] {
         if searchFor.isEmpty {
-            return ModelData.shared.animals
+            return ModelData.shared.sortedAnimalsByName
         } else {
-            return ModelData.shared.animals.filter { $0.name.localizedCaseInsensitiveContains(searchFor)
+            return ModelData.shared.sortedAnimalsByName.filter { $0.name.localizedCaseInsensitiveContains(searchFor)
             }
         }
     }

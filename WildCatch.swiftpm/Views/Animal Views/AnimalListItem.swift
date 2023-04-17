@@ -24,6 +24,6 @@ struct AnimalListItem: View {
 
 struct AnimalListItem_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalListItem(animal: ModelData.shared.animals[0])
+        AnimalListItem(animal: ModelData.shared.sortedAnimalsByName[0])
     }
 }

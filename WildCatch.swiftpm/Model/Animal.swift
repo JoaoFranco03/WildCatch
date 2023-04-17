@@ -27,18 +27,18 @@ class Animal: Identifiable{
     var description: String
     var endangeredStatus: EndangeredStatus
     var habitat: Habitat
-    var funFact : String
+    var funFacts : [String]
     var photo: UIImage?
     var isAnimalOfTheMonth: Bool
     
-    init(name: String, group: AnimalGroups, scientificName: String, description: String, endangeredStatus: EndangeredStatus, habitat: Habitat, funFact: String, photo: UIImage?, isAnimalOfTheMonth: Bool) {
+    init(name: String, group: AnimalGroups, scientificName: String, description: String, endangeredStatus: EndangeredStatus, habitat: Habitat, funFacts: [String], photo: UIImage?, isAnimalOfTheMonth: Bool) {
         self.name = name
         self.group = group
         self.scientificName = scientificName
         self.description = description
         self.endangeredStatus = endangeredStatus
         self.habitat = habitat
-        self.funFact = funFact
+        self.funFacts = funFacts
         self.photo = photo
         self.isAnimalOfTheMonth = isAnimalOfTheMonth
     }

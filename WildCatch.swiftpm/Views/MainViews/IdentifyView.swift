@@ -104,7 +104,7 @@ struct IdentifyView: View {
                             HStack{
                                 Image(systemName: "play.fill")
                                     .font(.title)
-                                Text("Take or Choose a Photo to Start")
+                                Text("Take or Choose a Photo of an Animal to Start")
                             }
                             .font(.body.weight(.medium))
                             .padding(.vertical, 16)
@@ -121,7 +121,7 @@ struct IdentifyView: View {
                             HStack{
                                 Image(systemName: "questionmark.circle.fill")
                                     .font(.title)
-                                Text("I'm sorry, I don't recognize this animal, but let's keep searching together!")
+                                Text("Sorry, I don't recognize any animals, but let's keep looking together!")
                             }
                             .font(.body.weight(.medium))
                             .padding(.vertical, 16)

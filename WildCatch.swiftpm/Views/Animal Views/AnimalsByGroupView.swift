@@ -21,13 +21,13 @@ struct AnimalsByGroupView: View {
     }
     
     var animalsByGroup: [Animal] {
-        return ModelData.shared.animals.filter { $0.group == receivedGroup
+        return ModelData.shared.sortedAnimalsByName.filter { $0.group == receivedGroup
         }
     }
 }
 
 struct AnimalsByGroupView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalsByGroupView(receivedGroup: ModelData.shared.animals[0].group)
+        AnimalsByGroupView(receivedGroup: ModelData.shared.sortedAnimalsByName[0].group)
     }
 }

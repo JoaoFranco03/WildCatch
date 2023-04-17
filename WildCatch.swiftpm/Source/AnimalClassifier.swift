@@ -1,5 +1,5 @@
 //
-// AnimalIdentifier.swift
+// AnimalClassifier.swift
 //
 // This file was automatically generated and should not be edited.
 //
@@ -10,7 +10,7 @@ import CoreML
 /// Model Prediction Input Type
 @available(macOS 10.14, iOS 12.0, tvOS 12.0, *)
 @available(watchOS, unavailable)
-public class AnimalIdentifierInput : MLFeatureProvider {
+public class AnimalClassifierInput : MLFeatureProvider {
 
     /// Input image to be classified as color (kCVPixelFormatType_32BGRA) image buffer, 299 pixels wide by 299 pixels high
     public var image: CVPixelBuffer
@@ -58,7 +58,7 @@ public class AnimalIdentifierInput : MLFeatureProvider {
 /// Model Prediction Output Type
 @available(macOS 10.14, iOS 12.0, tvOS 12.0, *)
 @available(watchOS, unavailable)
-public class AnimalIdentifierOutput : MLFeatureProvider {
+public class AnimalClassifierOutput : MLFeatureProvider {
 
     /// Source provided by CoreML
     public let provider : MLFeatureProvider
@@ -94,20 +94,23 @@ public class AnimalIdentifierOutput : MLFeatureProvider {
 /// Class for model loading and prediction
 @available(macOS 10.14, iOS 12.0, tvOS 12.0, *)
 @available(watchOS, unavailable)
-public class AnimalIdentifier {
+public class AnimalClassifier {
     let model: MLModel
 
     /// URL of model assuming it was installed in the same bundle as this class
     public class var urlOfModelInThisBundle : URL {
-        let bundle = Bundle(for: self)
-        return bundle.url(forResource: "AnimalIdentifier", withExtension:"mlmodelc")!
+        if let modelURL = Bundle.main.url(forResource: "AnimalClassifier", withExtension: "mlmodel") {
+            return try! MLModel.compileModel(at: modelURL)
+        } else {
+            fatalError("Failed to find AnimalClassifier.mlmodel in app bundle.")
+        }
     }
 
     /**
-        Construct AnimalIdentifier instance with an existing MLModel object.
+        Construct AnimalClassifier instance with an existing MLModel object.
 
-        Usually the application does not use this initializer unless it makes a subclass of AnimalIdentifier.
-        Such application may want to use `MLModel(contentsOfURL:configuration:)` and `AnimalIdentifier.urlOfModelInThisBundle` to create a MLModel object to pass-in.
+        Usually the application does not use this initializer unless it makes a subclass of AnimalClassifier.
+        Such application may want to use `MLModel(contentsOfURL:configuration:)` and `AnimalClassifier.urlOfModelInThisBundle` to create a MLModel object to pass-in.
 
         - parameters:
           - model: MLModel object
@@ -117,7 +120,7 @@ public class AnimalIdentifier {
     }
 
     /**
-        Construct AnimalIdentifier instance by automatically loading the model from the app's bundle.
+        Construct AnimalClassifier instance by automatically loading the model from the app's bundle.
     */
     @available(*, deprecated, message: "Use init(configuration:) instead and handle errors appropriately.")
     public convenience init() {
@@ -137,7 +140,7 @@ public class AnimalIdentifier {
     }
 
     /**
-        Construct AnimalIdentifier instance with explicit path to mlmodelc file
+        Construct AnimalClassifier instance with explicit path to mlmodelc file
         - parameters:
            - modelURL: the file url of the model
 
@@ -161,7 +164,7 @@ public class AnimalIdentifier {
     }
 
     /**
-        Construct AnimalIdentifier instance asynchronously with optional configuration.
+        Construct AnimalClassifier instance asynchronously with optional configuration.
 
         Model loading may take time when the model content is not immediately available (e.g. encrypted model). Use this factory method especially when the caller is on the main thread.
 
@@ -170,12 +173,12 @@ public class AnimalIdentifier {
           - handler: the completion handler to be called when the model loading completes successfully or unsuccessfully
     */
     @available(macOS 11.0, iOS 14.0, tvOS 14.0, watchOS 7.0, *)
-    public class func load(configuration: MLModelConfiguration = MLModelConfiguration(), completionHandler handler: @escaping (Swift.Result<AnimalIdentifier, Error>) -> Void) {
+    public class func load(configuration: MLModelConfiguration = MLModelConfiguration(), completionHandler handler: @escaping (Swift.Result<AnimalClassifier, Error>) -> Void) {
         return self.load(contentsOf: self.urlOfModelInThisBundle, configuration: configuration, completionHandler: handler)
     }
 
     /**
-        Construct AnimalIdentifier instance asynchronously with optional configuration.
+        Construct AnimalClassifier instance asynchronously with optional configuration.
 
         Model loading may take time when the model content is not immediately available (e.g. encrypted model). Use this factory method especially when the caller is on the main thread.
 
@@ -183,12 +186,12 @@ public class AnimalIdentifier {
           - configuration: the desired model configuration
     */
     @available(macOS 12.0, iOS 15.0, tvOS 15.0, watchOS 8.0, *)
-    public class func load(configuration: MLModelConfiguration = MLModelConfiguration()) async throws -> AnimalIdentifier {
+    public class func load(configuration: MLModelConfiguration = MLModelConfiguration()) async throws -> AnimalClassifier {
         return try await self.load(contentsOf: self.urlOfModelInThisBundle, configuration: configuration)
     }
 
     /**
-        Construct AnimalIdentifier instance asynchronously with URL of the .mlmodelc directory with optional configuration.
+        Construct AnimalClassifier instance asynchronously with URL of the .mlmodelc directory with optional configuration.
 
         Model loading may take time when the model content is not immediately available (e.g. encrypted model). Use this factory method especially when the caller is on the main thread.
 
@@ -198,19 +201,19 @@ public class AnimalIdentifier {
           - handler: the completion handler to be called when the model loading completes successfully or unsuccessfully
     */
     @available(macOS 11.0, iOS 14.0, tvOS 14.0, watchOS 7.0, *)
-    public class func load(contentsOf modelURL: URL, configuration: MLModelConfiguration = MLModelConfiguration(), completionHandler handler: @escaping (Swift.Result<AnimalIdentifier, Error>) -> Void) {
+    public class func load(contentsOf modelURL: URL, configuration: MLModelConfiguration = MLModelConfiguration(), completionHandler handler: @escaping (Swift.Result<AnimalClassifier, Error>) -> Void) {
         MLModel.load(contentsOf: modelURL, configuration: configuration) { result in
             switch result {
             case .failure(let error):
                 handler(.failure(error))
             case .success(let model):
-                handler(.success(AnimalIdentifier(model: model)))
+                handler(.success(AnimalClassifier(model: model)))
             }
         }
     }
 
     /**
-        Construct AnimalIdentifier instance asynchronously with URL of the .mlmodelc directory with optional configuration.
+        Construct AnimalClassifier instance asynchronously with URL of the .mlmodelc directory with optional configuration.
 
         Model loading may take time when the model content is not immediately available (e.g. encrypted model). Use this factory method especially when the caller is on the main thread.
 
@@ -219,22 +222,22 @@ public class AnimalIdentifier {
           - configuration: the desired model configuration
     */
     @available(macOS 12.0, iOS 15.0, tvOS 15.0, watchOS 8.0, *)
-    public class func load(contentsOf modelURL: URL, configuration: MLModelConfiguration = MLModelConfiguration()) async throws -> AnimalIdentifier {
+    public class func load(contentsOf modelURL: URL, configuration: MLModelConfiguration = MLModelConfiguration()) async throws -> AnimalClassifier {
         let model = try await MLModel.load(contentsOf: modelURL, configuration: configuration)
-        return AnimalIdentifier(model: model)
+        return AnimalClassifier(model: model)
     }
 
     /**
         Make a prediction using the structured interface
 
         - parameters:
-           - input: the input to the prediction as AnimalIdentifierInput
+           - input: the input to the prediction as AnimalClassifierInput
 
         - throws: an NSError object that describes the problem
 
-        - returns: the result of the prediction as AnimalIdentifierOutput
+        - returns: the result of the prediction as AnimalClassifierOutput
     */
-    public func prediction(input: AnimalIdentifierInput) throws -> AnimalIdentifierOutput {
+    public func prediction(input: AnimalClassifierInput) throws -> AnimalClassifierOutput {
         return try self.prediction(input: input, options: MLPredictionOptions())
     }
 
@@ -242,16 +245,16 @@ public class AnimalIdentifier {
         Make a prediction using the structured interface
 
         - parameters:
-           - input: the input to the prediction as AnimalIdentifierInput
+           - input: the input to the prediction as AnimalClassifierInput
            - options: prediction options
 
         - throws: an NSError object that describes the problem
 
-        - returns: the result of the prediction as AnimalIdentifierOutput
+        - returns: the result of the prediction as AnimalClassifierOutput
     */
-    public func prediction(input: AnimalIdentifierInput, options: MLPredictionOptions) throws -> AnimalIdentifierOutput {
+    public func prediction(input: AnimalClassifierInput, options: MLPredictionOptions) throws -> AnimalClassifierOutput {
         let outFeatures = try model.prediction(from: input, options:options)
-        return AnimalIdentifierOutput(features: outFeatures)
+        return AnimalClassifierOutput(features: outFeatures)
     }
 
     /**
@@ -262,10 +265,10 @@ public class AnimalIdentifier {
 
         - throws: an NSError object that describes the problem
 
-        - returns: the result of the prediction as AnimalIdentifierOutput
+        - returns: the result of the prediction as AnimalClassifierOutput
     */
-    public func prediction(image: CVPixelBuffer) throws -> AnimalIdentifierOutput {
-        let input_ = AnimalIdentifierInput(image: image)
+    public func prediction(image: CVPixelBuffer) throws -> AnimalClassifierOutput {
+        let input_ = AnimalClassifierInput(image: image)
         return try self.prediction(input: input_)
     }
 
@@ -273,21 +276,21 @@ public class AnimalIdentifier {
         Make a batch prediction using the structured interface
 
         - parameters:
-           - inputs: the inputs to the prediction as [AnimalIdentifierInput]
+           - inputs: the inputs to the prediction as [AnimalClassifierInput]
            - options: prediction options
 
         - throws: an NSError object that describes the problem
 
-        - returns: the result of the prediction as [AnimalIdentifierOutput]
+        - returns: the result of the prediction as [AnimalClassifierOutput]
     */
-    public func predictions(inputs: [AnimalIdentifierInput], options: MLPredictionOptions = MLPredictionOptions()) throws -> [AnimalIdentifierOutput] {
+    public func predictions(inputs: [AnimalClassifierInput], options: MLPredictionOptions = MLPredictionOptions()) throws -> [AnimalClassifierOutput] {
         let batchIn = MLArrayBatchProvider(array: inputs)
         let batchOut = try model.predictions(from: batchIn, options: options)
-        var results : [AnimalIdentifierOutput] = []
+        var results : [AnimalClassifierOutput] = []
         results.reserveCapacity(inputs.count)
         for i in 0..<batchOut.count {
             let outProvider = batchOut.features(at: i)
-            let result =  AnimalIdentifierOutput(features: outProvider)
+            let result =  AnimalClassifierOutput(features: outProvider)
             results.append(result)
         }
         return results

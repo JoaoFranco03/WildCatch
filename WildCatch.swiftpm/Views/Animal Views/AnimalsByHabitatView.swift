@@ -21,13 +21,13 @@ struct AnimalsByHabitatView: View {
     }
     
     var animalsByHabitat: [Animal] {
-        return ModelData.shared.animals.filter { $0.habitat == receivedHabitat
+        return ModelData.shared.sortedAnimalsByName.filter { $0.habitat == receivedHabitat
         }
     }
 }
 
 struct AnimalsByHabitatView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalsByHabitatView(receivedHabitat: ModelData.shared.animals[0].habitat)
+        AnimalsByHabitatView(receivedHabitat: ModelData.shared.sortedAnimalsByName[0].habitat)
     }
 }

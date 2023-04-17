@@ -35,7 +35,7 @@ struct AnimalDetailView: View {
                             .padding(.top, 12)
                             .font(.subheadline.weight(.regular))
                         }
-
+                        
                     }
                     .frame(maxWidth: .infinity)
                     Text(animal.scientificName)
@@ -59,27 +59,32 @@ struct AnimalDetailView: View {
                     Text(animal.description)
                         .font(Font(UIFont.systemFont(ofSize: 16, weight: .regular)))
                         .padding(.vertical)
-                    VStack(alignment: .leading){
-                        Text("Did you know?")
-                            .font(.headline)
-                        Spacer()
-                        
-                        Text(animal.funFact)
-                            .font(.subheadline)
-                            .multilineTextAlignment(.leading)
-                    }
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color.yellow.opacity(0.4))
-                    .cornerRadius(10)
-                    .padding(.bottom, 70)
                 }
                 .padding(.horizontal, 24)
                 .padding(.top, 12)
-                VStack(alignment: .leading, spacing: 15) {
-                    
+            }
+            VStack(alignment: .leading){
+                Text("Fun Facts:")
+                    .font(.title3.weight(.bold))
+                    .padding(.bottom, 10)
+                    .padding(.leading, 24)
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 20) {
+                        ForEach(animal.funFacts.indices, id: \.self) { index in
+                            VStack(alignment: .leading, spacing: 10) {
+                                Text(animal.funFacts[index])
+                                    .font(.subheadline)
+                                    .multilineTextAlignment(.leading)
+                            }
+                            .padding()
+                            .background(Color.yellow.opacity(0.4))
+                            .cornerRadius(10)
+                            .frame(width: 300)
+                            .padding(.leading, index == 0 ? 24 : 0)
+                        }
+                    }
+                    .padding(.bottom, 70)
                 }
-                .padding(.horizontal, 24)
             }
         }
         .edgesIgnoringSafeArea(.all)
@@ -88,6 +93,6 @@ struct AnimalDetailView: View {
 
 struct AnimalDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimalDetailView(animal: ModelData.shared.animals[0])
+        AnimalDetailView(animal: ModelData.shared.sortedAnimalsByName[0])
     }
 }
