@@ -346,8 +346,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Spix's Macaw was the inspiration for the character Blu in the animated movie Rio.",
-            "They are highly intelligent and can learn to imitate human speech, as well as perform a variety of tricks and behaviors.",
-            "These birds are also known for their long, hooked beaks which they use to crack open hard-shelled nuts and seeds."
+                "They are highly intelligent and can learn to imitate human speech, as well as perform a variety of tricks and behaviors.",
+                "These birds are also known for their long, hooked beaks which they use to crack open hard-shelled nuts and seeds."
             ],
             photo: UIImage(named: "SpixsMacaw"),
             isAnimalOfTheMonth: false
@@ -361,8 +361,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Sunda Tigers are excellent swimmers and are known to hunt fish in rivers and streams.",
-            "The Sunda Tiger is the smallest tiger subspecies and is found exclusively on the Indonesian island of Sumatra.",
-            "Despite being a solitary animal, the Sunda Tiger is known to communicate with other tigers through vocalizations such as growls, roars, and chuffs."
+                "The Sunda Tiger is the smallest tiger subspecies and is found exclusively on the Indonesian island of Sumatra.",
+                "Despite being a solitary animal, the Sunda Tiger is known to communicate with other tigers through vocalizations such as growls, roars, and chuffs."
             ],
             photo: UIImage(named: "SundaTiger"),
             isAnimalOfTheMonth: false
@@ -376,8 +376,8 @@ final class ModelData: ObservableObject {
             habitat: .ocean,
             funFacts: [
                 "Humpback Whales can sing for hours on end and their songs can travel for great distances through the ocean. The purpose of their songs is still unknown, but they are thought to be related to courtship and communication.",
-            "Humpback whales are known for their acrobatic displays, such as breaching and tail slapping, which are believed to be a form of communication and also used to stun prey.",
-            "Despite their large size, humpback whales feed on tiny krill and small fish, consuming up to 1.5 tons of food per day during feeding season."
+                "Humpback whales are known for their acrobatic displays, such as breaching and tail slapping, which are believed to be a form of communication and also used to stun prey.",
+                "Despite their large size, humpback whales feed on tiny krill and small fish, consuming up to 1.5 tons of food per day during feeding season."
             ],
             photo: UIImage(named: "WhaleBackground"),
             isAnimalOfTheMonth: false
@@ -391,8 +391,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Hamsters have cheek pouches that they use to carry food back to their burrows. Their pouches can stretch to three times the size of their head!",
-            "Hamsters are crepuscular, meaning they are most active during dawn and dusk.",
-            "Hamsters are rodents that are native to parts of Europe and Asia. They were first kept as pets in the 1930s, and have since become one of the most popular small pets in the world."
+                "Hamsters are crepuscular, meaning they are most active during dawn and dusk.",
+                "Hamsters are rodents that are native to parts of Europe and Asia. They were first kept as pets in the 1930s, and have since become one of the most popular small pets in the world."
             ],
             photo: UIImage(named: "DomesticHamster"),
             isAnimalOfTheMonth: false
@@ -405,8 +405,8 @@ final class ModelData: ObservableObject {
                habitat: .ocean,
                funFacts: [
                 "Blue Sharks are known to swim in large groups, or schools, sometimes numbering in the hundreds or even thousands of individuals.",
-               "The Blue Shark is one of the most widespread shark species in the world and can be found in all of the world's oceans.",
-               "Despite their fierce reputation, Blue Sharks are not typically dangerous to humans and rarely attack people."
+                "The Blue Shark is one of the most widespread shark species in the world and can be found in all of the world's oceans.",
+                "Despite their fierce reputation, Blue Sharks are not typically dangerous to humans and rarely attack people."
                ],
                photo: UIImage(named: "BlueShark"),
                isAnimalOfTheMonth: false),
@@ -419,8 +419,8 @@ final class ModelData: ObservableObject {
                habitat: .forest,
                funFacts: [
                 "Brown Bears can run at speeds of up to 30 miles per hour, and can swim for long distances in water.",
-               "Brown Bears are found throughout North America, Europe, and Asia, and are the largest predators in many of the ecosystems where they live.",
-               "Brown Bears are known for their excellent sense of smell, which they use to find food and identify potential threats."
+                "Brown Bears are found throughout North America, Europe, and Asia, and are the largest predators in many of the ecosystems where they live.",
+                "Brown Bears are known for their excellent sense of smell, which they use to find food and identify potential threats."
                ],
                photo: UIImage(named: "BrownBear"),
                isAnimalOfTheMonth: false),
@@ -433,8 +433,8 @@ final class ModelData: ObservableObject {
                habitat: .wetland,
                funFacts: [
                 "Capybaras have been known to form close bonds with other animals, including birds and even domestic dogs.",
-               "Capybaras are the largest rodents in the world and can weigh up to 140 pounds.",
-               "Despite their size, Capybaras are excellent swimmers and can hold their breath underwater for up to five minutes."
+                "Capybaras are the largest rodents in the world and can weigh up to 140 pounds.",
+                "Despite their size, Capybaras are excellent swimmers and can hold their breath underwater for up to five minutes."
                ],
                photo: UIImage(named: "Capybara"),
                isAnimalOfTheMonth: false),
@@ -477,8 +477,8 @@ final class ModelData: ObservableObject {
             habitat: .grassland,
             funFacts: [
                 "Common garter snakes are known to secrete a foul-smelling musk when they feel threatened, which can deter predators.",
-            "Common Garter Snakes are found throughout North America and are one of the most common species of snake in the US.",
-            "Garter Snakes are not venomous and are actually very beneficial to have around, as they eat pests such as slugs, insects, and small rodents."
+                "Common Garter Snakes are found throughout North America and are one of the most common species of snake in the US.",
+                "Garter Snakes are not venomous and are actually very beneficial to have around, as they eat pests such as slugs, insects, and small rodents."
             ],
             photo: UIImage(named: "CommonGarterSnake"),
             isAnimalOfTheMonth: false
@@ -492,8 +492,8 @@ final class ModelData: ObservableObject {
             habitat: .wetland,
             funFacts: [
                 "Crocodiles are some of the oldest reptiles on Earth, with fossil records dating back over 200 million years.",
-            "Crocodiles are some of the largest reptiles in the world and can grow up to 20 feet long.",
-            "Crocodiles have one of the strongest bites in the animal kingdom, with some species able to exert a force of over 16,000 newtons."
+                "Crocodiles are some of the largest reptiles in the world and can grow up to 20 feet long.",
+                "Crocodiles have one of the strongest bites in the animal kingdom, with some species able to exert a force of over 16,000 newtons."
             ],
             photo: UIImage(named: "Crocodile"),
             isAnimalOfTheMonth: false
@@ -539,7 +539,7 @@ final class ModelData: ObservableObject {
                 "Flamingos are able to stand on one leg for long periods of time, which helps them conserve body heat and stay warm in cold water.",
                 "Flamingos are known for their bright pink feathers, which they get from the pigments in the algae and crustaceans they eat.",
                 "Flamingos are filter feeders and use their unique beaks to strain algae and small organisms from the water."
-                ],
+            ],
             photo: UIImage(named: "Flamingo"),
             isAnimalOfTheMonth: false
         ),
@@ -552,8 +552,8 @@ final class ModelData: ObservableObject {
             habitat: .savanna,
             funFacts: [
                 "Giraffes have extremely long necks, which can be up to six feet in length. These necks are supported by only seven vertebrae, which are elongated and specialized to help the giraffe reach leaves high up in trees.",
-            "Giraffes are the tallest mammals on Earth and can grow up to 18 feet tall.",
-            "Giraffes have very large hearts, which are necessary to pump blood all the way up to their brains and other extremities."
+                "Giraffes are the tallest mammals on Earth and can grow up to 18 feet tall.",
+                "Giraffes have very large hearts, which are necessary to pump blood all the way up to their brains and other extremities."
             ],
             photo: UIImage(named: "Giraffe"),
             isAnimalOfTheMonth: false
@@ -597,8 +597,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Green Iguanas can communicate with head bobs and arm waves, which are used to establish dominance or to show submission.",
-            "Green iguanas are excellent climbers, and can even scale vertical walls using their sharp claws and powerful legs.",
-            "Green iguanas can grow up to 6 feet long, including their long tail."
+                "Green iguanas are excellent climbers, and can even scale vertical walls using their sharp claws and powerful legs.",
+                "Green iguanas can grow up to 6 feet long, including their long tail."
             ],
             photo: UIImage(named: "GreenIguana"),
             isAnimalOfTheMonth: false
@@ -613,7 +613,7 @@ final class ModelData: ObservableObject {
             funFacts: [
                 "Hippos secrete a reddish oily substance from their skin, which is often called 'blood sweat' but is actually a natural sunscreen and moisturizer.",
                 "Hippopotamuses spend most of their time in water to keep their skin cool and hydrated, but they are not good swimmers and usually stay near the surface.",
-            "Despite their large size and reputation for being aggressive, hippopotamuses are herbivores and primarily eat grasses and other vegetation."
+                "Despite their large size and reputation for being aggressive, hippopotamuses are herbivores and primarily eat grasses and other vegetation."
             ],
             photo: UIImage(named: "Hippopotamus"),
             isAnimalOfTheMonth: false
@@ -627,8 +627,8 @@ final class ModelData: ObservableObject {
             habitat: .savanna,
             funFacts: [
                 "Hyenas are highly social animals and live in groups called clans, which can contain up to 80 individuals!",
-            "Hyenas are excellent hunters and are capable of taking down large prey, including wildebeest and zebra.",
-            "Hyenas are highly social animals and communicate with a range of vocalizations, including whoops, cackles, and growls."],
+                "Hyenas are excellent hunters and are capable of taking down large prey, including wildebeest and zebra.",
+                "Hyenas are highly social animals and communicate with a range of vocalizations, including whoops, cackles, and growls."],
             photo: UIImage(named: "Hyena"),
             isAnimalOfTheMonth: false
         ),
@@ -641,8 +641,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Jaguars have the strongest bite force of all cats and can bite through turtle shells and caiman armor.",
-            "Jaguars are the largest big cat species in the Americas and are known for their powerful jaws and muscular bodies.",
-            "Jaguars have a distinctive pattern of spots on their fur, which is unique to each individual and can be used to identify them."
+                "Jaguars are the largest big cat species in the Americas and are known for their powerful jaws and muscular bodies.",
+                "Jaguars have a distinctive pattern of spots on their fur, which is unique to each individual and can be used to identify them."
             ],
             photo: UIImage(named: "Jaguar"),
             isAnimalOfTheMonth: false
@@ -656,8 +656,8 @@ final class ModelData: ObservableObject {
             habitat: .grassland,
             funFacts: [
                 "Kangaroos can jump up to three times their own body length in one bound!",
-            "Kangaroos are marsupials, which means that they carry their young in a pouch.",
-            "They are the only large animals that use hopping as their primary means of locomotion."
+                "Kangaroos are marsupials, which means that they carry their young in a pouch.",
+                "They are the only large animals that use hopping as their primary means of locomotion."
             ],
             photo: UIImage(named: "Kangaroo"),
             isAnimalOfTheMonth: false
@@ -671,8 +671,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Koalas have fingerprints that are very similar to human fingerprints!",
-            "They are arboreal, which means they live in trees, and their diet consists almost entirely of eucalyptus leaves.",
-            "Despite their cuddly appearance, koalas are known for their sharp claws and teeth, which they can use to defend themselves if threatened."
+                "They are arboreal, which means they live in trees, and their diet consists almost entirely of eucalyptus leaves.",
+                "Despite their cuddly appearance, koalas are known for their sharp claws and teeth, which they can use to defend themselves if threatened."
             ],
             photo: UIImage(named: "Koala"),
             isAnimalOfTheMonth: false
@@ -686,8 +686,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Mice have a very keen sense of smell, and can use it to navigate and communicate with other mice.",
-            "They have a very short lifespan, usually only one to two years in the wild.",
-            "Mice are nocturnal and are very good at climbing and jumping, which allows them to escape from predators."
+                "They have a very short lifespan, usually only one to two years in the wild.",
+                "Mice are nocturnal and are very good at climbing and jumping, which allows them to escape from predators."
             ],
             photo: UIImage(named: "Mouse"),
             isAnimalOfTheMonth: false
@@ -701,13 +701,27 @@ final class ModelData: ObservableObject {
             habitat: .ocean,
             funFacts: [
                 "Octopuses have three hearts and blue blood!",
-            "They have eight arms, which are lined with suckers that they use to grip and manipulate objects.",
-            "Octopuses have excellent eyesight and can see in color, even in very low light conditions."
+                "They have eight arms, which are lined with suckers that they use to grip and manipulate objects.",
+                "Octopuses have excellent eyesight and can see in color, even in very low light conditions."
             ],
             photo: UIImage(named: "Octopus"),
             isAnimalOfTheMonth: false
         ),
-        
+        Animal(
+            name: "Pyrenean Ibex",
+            group: .mammals,
+            scientificName: "Capra pyrenaica pyrenaica",
+            description: "The Pyrenean Ibex was a species of wild goat that was native to the Pyrenees mountain range in Spain and France. It was well adapted to living in the rugged terrain of the mountains and was known for its impressive horns, which could grow up to 75 cm long. Unfortunately, the Pyrenean Ibex is now extinct, having been hunted to extinction in 2000.",
+            endangeredStatus: .extinct,
+            habitat: .mountains,
+            funFacts: [
+                "The Pyrenean Ibex was one of the four subspecies of the Iberian ibex.",
+                "It was also known as the bucardo or the Spanish ibex.",
+                "The Pyrenean Ibex was once considered a symbol of the Pyrenees mountains and was featured on the coat of arms of the province of Huesca in Spain."
+            ],
+            photo: UIImage(named: "Pyrenean_Ibex"),
+            isAnimalOfTheMonth: false
+        ),
         Animal(
             name: "Panther Chameleon",
             group: .reptiles,
@@ -717,8 +731,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "The Panther Chameleon has a long tongue that can extend up to twice the length of its body, which it uses to catch insects.",
-            "They have independently moving eyes that allow them to look in two different directions at once.",
-            "Male panther chameleons are very territorial and will fight each other for dominance."
+                "They have independently moving eyes that allow them to look in two different directions at once.",
+                "Male panther chameleons are very territorial and will fight each other for dominance."
             ],
             photo: UIImage(named: "PantherChameleon"),
             isAnimalOfTheMonth: false
@@ -733,8 +747,8 @@ final class ModelData: ObservableObject {
             habitat: .grassland,
             funFacts: [
                 "Budgies are very social birds and enjoy interacting with other budgies. They can even learn to mimic words and phrases if taught properly!",
-            "They are popular as pets because of their small size, colorful feathers, and ability to mimic human speech.",
-            "They have a unique respiratory system that allows them to fly at high altitudes without getting altitude sickness."
+                "They are popular as pets because of their small size, colorful feathers, and ability to mimic human speech.",
+                "They have a unique respiratory system that allows them to fly at high altitudes without getting altitude sickness."
             ],
             photo: UIImage(named: "Budgerigar"),
             isAnimalOfTheMonth: false
@@ -748,8 +762,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Brown-throated Three-toed Sloths are really good at sleeping! They sleep for up to 15 hours each day, which is more than half the day! They even sleep while hanging upside down from trees!",
-            "They spend most of their time hanging upside down in trees, where they are well-camouflaged and difficult to spot.",
-            "They are nocturnal and have very poor eyesight, but they have an excellent sense of smell and hearing."
+                "They spend most of their time hanging upside down in trees, where they are well-camouflaged and difficult to spot.",
+                "They are nocturnal and have very poor eyesight, but they have an excellent sense of smell and hearing."
             ],
             photo: UIImage(named: "Brown-throated Three-toed Sloth"),
             isAnimalOfTheMonth: false
@@ -762,8 +776,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Keel-billed Toucans are very acrobatic birds and can use their large bills to pluck fruit from branches that are too small to support their body weight!",
-            "The keel-billed toucan's colorful beak is actually made of keratin, the same material that makes up our hair and nails.",
-            "Toucans are social birds and are often found in small flocks of up to six individuals."
+                "The keel-billed toucan's colorful beak is actually made of keratin, the same material that makes up our hair and nails.",
+                "Toucans are social birds and are often found in small flocks of up to six individuals."
             ],
             photo: UIImage(named: "Keel-billed Toucan"),
             isAnimalOfTheMonth: false
@@ -777,8 +791,8 @@ final class ModelData: ObservableObject {
             habitat: .grassland,
             funFacts: [
                 "No two zebras have the same stripe pattern. The stripes help to confuse predators, regulate body temperature, and identify individuals within a herd.",
-            "Zebras can run at speeds of up to 40 miles per hour, making them one of the fastest animals on the African savanna.",
-            "Zebras are herbivores and can eat up to 90 different species of grasses and other plants."
+                "Zebras can run at speeds of up to 40 miles per hour, making them one of the fastest animals on the African savanna.",
+                "Zebras are herbivores and can eat up to 90 different species of grasses and other plants."
             ],
             photo: UIImage(named: "Zebra"),
             isAnimalOfTheMonth: false
@@ -792,8 +806,8 @@ final class ModelData: ObservableObject {
             habitat: .forest,
             funFacts: [
                 "Despite their reputation, black widow spiders are not aggressive and usually only bite when threatened. The venom of a black widow spider is 15 times stronger than that of a rattlesnake, but they inject a much smaller amount, making their bites less deadly than many people think.",
-            "Black widow spiders spin webs that are strong and sticky, which helps them to catch prey.",
-            "The female black widow spider is larger than the male and is the one that is most often seen."
+                "Black widow spiders spin webs that are strong and sticky, which helps them to catch prey.",
+                "The female black widow spider is larger than the male and is the one that is most often seen."
             ],
             photo: UIImage(named: "BlackWidowSpider"),
             isAnimalOfTheMonth: false
@@ -807,8 +821,8 @@ final class ModelData: ObservableObject {
             habitat: .river,
             funFacts: [
                 "Otters are one of the few mammals that use tools. They use rocks to break open shellfish and other hard-shelled prey.",
-            "Otters have thick fur coats that help keep them warm in cold water.",
-            "Otters are playful animals and are often seen playing games with each other, such as sliding down mud banks or throwing objects in the air."
+                "Otters have thick fur coats that help keep them warm in cold water.",
+                "Otters are playful animals and are often seen playing games with each other, such as sliding down mud banks or throwing objects in the air."
             ],
             photo: UIImage(named: "Otters"),
             isAnimalOfTheMonth: false
@@ -822,8 +836,8 @@ final class ModelData: ObservableObject {
             habitat: .meadow,
             funFacts: [
                 "Monarch Butterflies undertake a long-distance migration of up to 3,000 miles from Canada to Mexico each year!",
-            "Monarch butterflies have bright orange wings with black and white markings, which warn predators that they are toxic.",
-            "Monarch butterflies only eat milkweed plants, which contain toxins that make the butterflies toxic to predators."
+                "Monarch butterflies have bright orange wings with black and white markings, which warn predators that they are toxic.",
+                "Monarch butterflies only eat milkweed plants, which contain toxins that make the butterflies toxic to predators."
             ],
             photo: UIImage(named: "MonarchButterfly"),
             isAnimalOfTheMonth: false
@@ -836,9 +850,9 @@ final class ModelData: ObservableObject {
             endangeredStatus: .leastConcern,
             habitat: .grassland,
             funFacts: [
-            "Horses have the largest eyes of any land mammal, and their eyes are positioned on the sides of their head, giving them almost 360-degree vision.",
-            "Horses can sleep both lying down and standing up.",
-            "The teeth of a horse never stop growing."
+                "Horses have the largest eyes of any land mammal, and their eyes are positioned on the sides of their head, giving them almost 360-degree vision.",
+                "Horses can sleep both lying down and standing up.",
+                "The teeth of a horse never stop growing."
             ],
             photo: UIImage(named: "Horse"), isAnimalOfTheMonth: false),
         Animal(
@@ -850,8 +864,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Sheep have excellent memories and are able to recognize and remember up to 50 different individuals for years.",
-            "Sheep have a unique digestive system with four chambers in their stomach that helps them to extract nutrients from tough plants.",
-            "Sheep have a natural instinct to follow the sheep in front of them and have been known to blindly follow each other off cliffs."
+                "Sheep have a unique digestive system with four chambers in their stomach that helps them to extract nutrients from tough plants.",
+                "Sheep have a natural instinct to follow the sheep in front of them and have been known to blindly follow each other off cliffs."
             ],
             photo: UIImage(named: "Sheep"),
             isAnimalOfTheMonth: false
@@ -865,8 +879,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Cows have an acute sense of smell and can detect scents up to 6 miles away.",
-            "Cows can produce up to 200,000 glasses of milk in their lifetime.",
-            "Cows have best friends and become stressed when they are separated."
+                "Cows can produce up to 200,000 glasses of milk in their lifetime.",
+                "Cows have best friends and become stressed when they are separated."
             ],
             photo: UIImage(named: "Cow"),
             isAnimalOfTheMonth: false
@@ -880,8 +894,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Goats have rectangular pupils, which give them a wide field of vision and excellent depth perception. This helps them navigate the rocky terrain in their natural habitats.",
-            "Goats can climb trees and mountains with ease.",
-            "Goats have accents that differ from region to region."
+                "Goats can climb trees and mountains with ease.",
+                "Goats have accents that differ from region to region."
             ],
             photo: UIImage(named: "Goat"),
             isAnimalOfTheMonth: false
@@ -895,8 +909,8 @@ final class ModelData: ObservableObject {
             habitat: .domestic,
             funFacts: [
                 "Pigs are very social animals and will often form close bonds with other pigs.",
-            "Pigs are very intelligent animals and are often compared to dogs in terms of their cognitive abilities.",
-            "Pigs have an excellent sense of smell and are used in some countries to hunt for truffles, a type of edible mushroom that grows underground."
+                "Pigs are very intelligent animals and are often compared to dogs in terms of their cognitive abilities.",
+                "Pigs have an excellent sense of smell and are used in some countries to hunt for truffles, a type of edible mushroom that grows underground."
             ],
             photo: UIImage(named: "Pig"),
             isAnimalOfTheMonth: false
@@ -913,7 +927,7 @@ final class ModelData: ObservableObject {
         animals.filter { $0.endangeredStatus == .criticallyEndangered }
     }
     
-    //Get all Polar  Animals
+    //Get all Polar Animals
     var polarAnimals: [Animal] {
         animals.filter { $0.habitat == .arctic || $0.habitat == .polar || $0.habitat == .tundra}
     }

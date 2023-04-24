@@ -4,6 +4,7 @@
 //
 //  Created by João Franco on 08/04/2023.
 //
+
 import CoreML
 import CoreImage
 import Vision
@@ -32,9 +33,6 @@ struct Classifier {
         if let firstResult = results.first {
             if (firstResult.identifier != "Human"){
                 if (firstResult.confidence > 0.8){
-                    print("---------------------------")
-                    print(firstResult.identifier)
-                    print(firstResult.confidence)
                     self.results = firstResult.identifier
                 } else {
                     self.results = nil

@@ -13,6 +13,7 @@ struct AboutMeView2: View {
     var body: some View {
         VStack() {
             Spacer()
+            
             Text("Why have I built this app?")
                 .font(.largeTitle)
                 .fontWeight(.bold)
@@ -34,7 +35,6 @@ struct AboutMeView2: View {
                     .frame(height: 50)
                     .background(Color.blue)
                     .cornerRadius(15)
-                    .padding(.horizontal, 48)
             }
         }
         .padding()

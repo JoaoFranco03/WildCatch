@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  LearnPageView.swift
 //
 //
 //  Created by João Franco on 07/04/2023.

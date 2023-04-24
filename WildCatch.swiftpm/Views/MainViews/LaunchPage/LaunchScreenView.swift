@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  LaunchScreenView.swift
 //  
 //
 //  Created by João Franco on 10/04/2023.
@@ -28,7 +28,7 @@ struct LaunchScreenView: View {
                 Spacer()
                 
                 VStack(spacing: 24) {
-                    FeatureHighlight(image: "camera", title: "Spot Wildlife With Your Camera", subtitle: "Snap or Pick a photo with the app to instantly discover fascinating insights about wild animals", color: .blue)
+                    FeatureHighlight(image: "camera", title: "Spot Wildlife With Your Camera", subtitle: "Snap or Pick a photo with the app to instantly discover fascinating insights about your favorite animals", color: .blue)
                     
                     FeatureHighlight(image: "books.vertical", title: "Learn More About Your Favorite Animals", subtitle: "Discover and appreciate the wonders of nature by exploring your favorite animals and endangered species.", color: .purple)
                     

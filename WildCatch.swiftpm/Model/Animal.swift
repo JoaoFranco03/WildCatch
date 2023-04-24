@@ -17,7 +17,6 @@ class Animal: Identifiable{
         case mammals = "Mammals"
         case birds = "Birds"
         case reptiles = "Reptiles"
-        case memoir = "Memoir"
         case fish = "Fish"
         case molluscs = "Molluscs"
         case amphibians = "Amphibians"

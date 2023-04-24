@@ -1,3 +1,10 @@
+//
+//  EmojiView.swift
+//
+//
+//  Created by João Franco on 10/04/2023.
+//
+
 import SwiftUI
 
 struct Emoji: Identifiable {
@@ -26,7 +33,7 @@ struct EmojiView: View {
                     }
                     .onAppear {
                         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
-                            let emoji = emojis.randomElement() ?? "🚀"
+                            let emoji = emojis.randomElement() ?? "🐱"
                             let x = CGFloat.random(in: 0..<geometry.size.width)
                             let y = -100.0
                             let speed = CGFloat.random(in: 1..<5)
@@ -50,10 +57,10 @@ struct EmojiView: View {
                     VStack {
                         Text("WildCatch")
                             .font(.largeTitle)
-                            .fontWeight(.bold)                    
+                            .fontWeight(.bold)
                         
                         NavigationLink(destination:ContentView()) {
-                            Text("Go to the App")
+                            Text("Explore the App")
                                 .font(.title2)
                                 .fontWeight(.semibold)
                                 .padding()
@@ -66,6 +73,18 @@ struct EmojiView: View {
                     .cornerRadius(20)
                     .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20))
                     Spacer()
+                }
+                VStack{
+                    Spacer()
+                    HStack {
+                        Text("Made With 💖 by João Franco for")
+                            .font(.callout)
+                            .foregroundColor(.gray)
+                        Text(" WWDC 2023 Swift Student Challenge")
+                            .font(.callout)
+                            .foregroundColor(.blue)
+                    }
+                    .padding(.bottom, 20)
                 }
             }
         }

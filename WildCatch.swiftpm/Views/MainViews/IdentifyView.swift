@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  SeeFood
+//  IdentifyView.swift
 //
-//  Created by Leon Wei on 5/31/21.
+//
+//  Created by João Franco on 10/04/2023.
 //
 
 import SwiftUI

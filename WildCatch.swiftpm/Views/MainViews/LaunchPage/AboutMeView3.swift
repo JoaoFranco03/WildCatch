@@ -1,5 +1,5 @@
 //
-//  AboutMeView2.swift
+//  AboutMeView3.swift
 //
 //
 //  Created by João Franco on 10/04/2023.
@@ -17,7 +17,6 @@ struct AboutMeView3: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(.blue)
-                .padding(.horizontal, 48)
             VStack(){
                 FeatureHighlight(image: "swift", title: "SwiftUI", subtitle: "Used to create an intuitive and user-friendly interface, that showcases the animals and their characteristics", color: .orange)
                 

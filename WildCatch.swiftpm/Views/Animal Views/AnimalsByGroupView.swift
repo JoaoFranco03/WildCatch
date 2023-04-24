@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  AnimalsByGroupView.swift
 //  
 //
 //  Created by João Franco on 08/04/2023.

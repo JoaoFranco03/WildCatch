@@ -1,3 +1,10 @@
+//
+//  AnimalDetailView.swift
+//
+//
+//  Created by João Franco on 07/04/2023.
+//
+
 import Foundation
 import SwiftUI
 

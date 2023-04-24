@@ -1,3 +1,10 @@
+//
+//  AnimalListItem.swift
+//
+//
+//  Created by João Franco on 08/04/2023.
+//
+
 import SwiftUI
 
 struct AnimalListItem: View {

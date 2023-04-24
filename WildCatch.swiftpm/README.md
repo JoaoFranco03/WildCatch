@@ -1,4 +1,14 @@
+# WildCatch
+#### Capture the Moment... / Conserve the Future...
 
+## About The Project
+This app identifies animals from photos and provides information about them, including fun facts. It has an intuitive interface and machine learning model trained on 63 species. The app aims to raise awareness about wildlife and encourage appreciation for the diversity of life on our planet.
+
+## Built With
+
+* SwiftUI
+* CoreML
+* Vision
 
 ## Files with Unsplash License: <br />
 **Amur Leopard:** Photo by Gwen Weustink on [Unsplash]( https://unsplash.com/photos/I3C1sSXj1i8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) <br /> 
@@ -71,9 +81,14 @@
 **Emperor Penguin:** Christopher Michel. An Emperor Penguin (Aptenodytes forsteri) in Antarctica jumping out of the water. 3 December 2013. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg#/media/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg) <br />
 **Spix's Macaw:** Rüdiger Stehn. A Spix's Macaw in Vogelpark Walsrode, Walsrode, Germany in about 1980. 1 January 1980. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Cyanopsitta_spixii_-Vogelpark_Walsrode,_Walsrode,_Germany-1980.jpg#/media/File:Cyanopsitta_spixii_-Vogelpark_Walsrode,_Walsrode,_Germany-1980.jpg) <br />
 
-##About the Licenses:
-**Public Domain:** Images with this license are free for use without any attribution or permission required. They are released under the Creative Commons CC0 license, which means that the images can be used for commercial or personal purposes, modified, distributed, and copied without any restrictions.
-**Attribution-ShareAlike 4.0 International (CC BY-SA 4.0):** This license requires the user to give credit to the author of the image and to share the image under the same license as the original. The images can be used for commercial or personal purposes and can be modified, distributed, and copied as long as the conditions of the license are met.
-**Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0):** This license is similar to CC BY-SA 4.0, but it is an older version of the license. It requires the user to give credit to the author and to share the image under the same license. The images can be used for commercial or personal purposes and can be modified, distributed, and copied as long as the conditions of the license are met.
-**Attribution 2.5 Generic (CC BY 2.5):** This license allows the user to modify, distribute, and copy the image for commercial or personal purposes. However, it requires the user to give credit to the author of the image.
-**Attribution 2.0 Generic (CC BY 2.0):** This license is similar to CC BY 2.5, but it is an older version of the license. It allows the user to modify, distribute, and copy the image for commercial or personal purposes, but it also requires the user to give credit to the author of the image.
+## Files with Public Domain License: <br />
+**Pyrenean Ibex:** Joseph Wolf. Plate 22 (Spanish Tur) from the book 'Wild oxen, sheep & goats of all lands, living and extinct' (1898) by Richard Lydekker. 1898. Retrieved from [Wikipedia Commons]( https://commons.wikimedia.org/wiki/File:Pyrenean_Ibex.png) <br />
+
+
+## About the Licenses:
+**Unsplash Licence:** Images with the Unsplash License are free to use without any attribution or permission required. These images are released under the Creative Commons CC0 license, which allows for their use in both personal and commercial projects. They can also be modified, distributed, and copied without any restrictions. <br />  <br /> 
+**Attribution-ShareAlike 4.0 International (CC BY-SA 4.0):** This license requires the user to give credit to the author of the image and to share the image under the same license as the original. The images can be used for commercial or personal purposes and can be modified, distributed, and copied as long as the conditions of the license are met. <br />  <br /> 
+**Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0):** This license is similar to CC BY-SA 4.0, but it is an older version of the license. It requires the user to give credit to the author and to share the image under the same license. The images can be used for commercial or personal purposes and can be modified, distributed, and copied as long as the conditions of the license are met. <br />  <br /> 
+**Attribution 2.5 Generic (CC BY 2.5):** This license allows the user to modify, distribute, and copy the image for commercial or personal purposes. However, it requires the user to give credit to the author of the image. <br />  <br /> 
+**Attribution 2.0 Generic (CC BY 2.0):** This license is similar to CC BY 2.5, but it is an older version of the license. It allows the user to modify, distribute, and copy the image for commercial or personal purposes, but it also requires the user to give credit to the author of the image. <br />  <br /> 
+**Public Domain:** Public domain refers to creative works that are not protected by copyright or any other legal restrictions, which means that they are free for anyone to use, modify, and distribute without asking for permission or giving credit. <br />  <br /> 

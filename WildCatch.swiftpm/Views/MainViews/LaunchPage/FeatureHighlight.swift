@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  FeatureHighlight.swift
 //  
 //
 //  Created by João Franco on 10/04/2023.
