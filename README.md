@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JoaoFranco03/WildCatch">
-    <img src="images/Logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">WildCatch<h3>
@@ -146,7 +146,7 @@ Project Link: [https://github.com/JoaoFranco03/WildCatch/](https://github.com/Jo
 [license-url]: https://github.com/JoaoFranco03/WildCatch/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/joão-franco-452161195/
-[product-screenshot]: images/Mockup.png
+[product-screenshot]: assets/Mockup.png
 [Swift.org]: https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white
 [Swift-url]: https://www.swift.org
 
