@@ -67,7 +67,7 @@
 
 This Project consists of an application that helps people learn more about wildlife and endangered species, either through the learn page of the app or by snapping photos of animals to get information about them.
 
-This app is written in Swift and developed in Xcode 14. It utilizes various features and APIs to provide users with an educational experience about different species of animals and their conservation status.
+This app is written in Swift. It utilizes various features and APIs to provide users with an educational experience about different species of animals and their conservation status.
 
 The key features of the app include:
 
